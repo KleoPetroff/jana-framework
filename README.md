@@ -1,4 +1,4 @@
-jeanne-css-framework
+Jana Framework
 ====================
 
 Simple SaSS powered framework

@@ -1,4 +1,4 @@
 jana-framework
 ==============
 
-Simple SaSS powered framework
+Simple SaSS and Compass powered framework

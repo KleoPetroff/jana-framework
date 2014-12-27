@@ -1,0 +1,84 @@
+// Box sizing
+
+@mixin box-sizing($box) {
+    @include prefixes(box-sizing, $box, moz webkit spec);
+}
+
+// Appearance
+
+@mixin appearance($value) {
+     @include prefixes(appearance, $value, moz webkit o ms spec);
+}
+
+// Border radius
+
+@mixin border-radius($top: 0, $right: 0, $bottom: 0, $left: 0){
+      border-radius: #{$top}px #{$right}px #{$bottom}px #{$left}px;
+}
+
+@mixin filter($function: none){
+     @include prefixes(filter, $function, webkit spec);
+}
+
+// Transform
+
+@mixin transform($property) {
+     @include prefixes(transform, $property, webkit moz ms o spec);
+}
+
+// Transition
+
+@mixin transition($property, $duration, $timing-function, $delay: 0) {
+    @if $delay > 0 {
+        -webkit-transition: #{$property} #{$duration} #{$timing-function} #{$delay};
+        -moz-transition:    #{$property} #{$duration} #{$timing-function} #{$delay};
+        -ms-transition:     #{$property} #{$duration} #{$timing-function} #{$delay};
+        -o-transition:      #{$property} #{$duration} #{$timing-function} #{$delay};
+        transition:         #{$property} #{$duration} #{$timing-function} #{$delay};
+    } @else {
+        -webkit-transition: #{$property} #{$duration} #{$timing-function};
+        -moz-transition:    #{$property} #{$duration} #{$timing-function};
+        -ms-transition:     #{$property} #{$duration} #{$timing-function};
+        -o-transition:      #{$property} #{$duration} #{$timing-function};
+        transition:         #{$property} #{$duration} #{$timing-function};
+    }
+}
+
+// Animation
+
+@mixin animation($animations) {
+    // Shorthand property
+    @include prefixes(animation, $animations, webkit moz spec);
+}
+
+@mixin animation-name($animation-name) {
+     @include prefixes(animation-name, $animation-name, webkit moz spec);
+}
+
+@mixin animation-duration($duration) {
+    @include prefixes(animation-duration, $duration, webkit moz spec);
+}
+
+@mixin animation-timing-fuction($function) {
+    @include prefixes(animation-timing-function, $function, webkit moz spec);
+}
+
+@mixin animation-iteration-count($count) {
+     @include prefixes(animation-iteration-count, $count, webkit moz spec);
+}
+
+@mixin animation-direction($direction){
+     @include prefixes(animation-direction, $direction, webkit moz spec);
+}
+
+@mixin animation-play-state($play) {
+    @include prefixes(animation-play-state, $play, webkit moz spec);
+}
+
+@mixin animation-delay($delay) {
+    @include prefixes(animation-delay, $delay, webkit moz spec);
+}
+
+@mixin animation-fill-mode($mode){
+    @include prefixes(animation-fill-mode, $mode, webkit moz spec);
+}

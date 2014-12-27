@@ -1,0 +1,46 @@
+// Variables for prefixes
+
+$prefix-webkit: true !default;
+$prefix-moz: true !default;
+$prefix-opera: true !default;
+$prefix-microsoft: true !default;
+$prefix-spec: true !default;
+
+
+/**************************
+ * prefixer
+ **************************/
+
+@mixin prefixes($property, $value, $prefixes) {
+    @each $prefix in $prefixes {
+        @if $prefix == webkit {
+            @if $prefix-webkit {
+                -webkit-#{$property}: $value;
+            }
+        }
+        @else if $prefix == moz {
+            @if $prefix-moz {
+                -moz-#{$property}: $value;
+            }
+        }
+        @else if $prefix == opera {
+            @if $prefix-opera {
+                 -o-#{$property}: $value;
+            }
+        }
+        @else if $prefix == ms {
+            @if $prefix-microsoft{
+                -ms-#{$property}: $value;
+            }
+        }
+        @else if $prefix == spec {
+            @if $prefix-spec {
+                #{$property}: $value;
+            }
+        }
+
+        @else {
+            @warn "Unknown prefix: #{$prefix}";
+        }
+    }
+}

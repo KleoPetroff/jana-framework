@@ -1,0 +1,80 @@
+/* @Major Font
+--------------------------------------------------------
+
+  The basic font.
+
+  Usage: use sans regular on a p
+  p {
+    @extend %sans--regular;
+  }
+
+------------------------------------------------------ */
+// ADD YOUR FONT HERE
+
+$base-font:sans-serif;
+
+@mixin base-font--light {
+  font-family: $base-font;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@mixin base-font--regular {
+  font-family: $base-font;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin base-font--semi-bold {
+  font-family: $base-font;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@mixin base-font--bold {
+  font-family: $base-font;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+
+
+/* @serif
+--------------------------------------------------------
+
+  This is your basic serif font.
+
+  Usage: use serif regular on a p
+  p {
+    @extend %serif--regular;
+  }
+
+-------------------------------------------------------- */
+
+$serif: georgia, times;
+
+%serif--light {
+  font-family: $serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+%serif--regular {
+  font-family: $serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+%serif--italic {
+  font-family: $serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+%serif--semi-bold {
+  font-family: $serif;
+  font-weight: 600;
+  font-style: italic;
+}

@@ -1,7 +1,10 @@
 @import 'utils/normalize';
 @import 'utils/clearfix';
 @import 'vars';
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import 'utils/web-fonts';
+
+//Call Google Web Font function
+@include web-fonts(("Oswald": ("400", "700", "300")));
 
 html{
     font-family: $main-font;

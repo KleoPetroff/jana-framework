@@ -1,11 +1,6 @@
-jana-framework
+Jana Framework
 ==============
 
-Simple SaSS framework with customizable Grid System.
+Simple SaSS framework.
 
-Demo: very soon
-
-TODOs: 
-* Finish the demo pages
-* Add detailed documentation
-* Add more SaSS functions and helpers
+Demo: **Soon!**

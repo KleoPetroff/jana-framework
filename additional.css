@@ -3,3 +3,5 @@
 }
 
 .offset{background: #fff}
+.nested{background: #b1b1b1}
+.nested > .nested{background: #898989}

@@ -359,23 +359,22 @@ html {
 @miport 'vars';
 /*  GROUPING  */
 .group {
+  *zoom: 1;
   padding: 0px;
-  margin: 0px;
-  *zoom: 1; }
+  margin: 0px; }
 .group:after, .group:before {
   content: "";
   display: table; }
 .group:after {
   clear: both; }
+.group *:first-child {
+  margin-left: 0; }
 
 /*  COLUMN SETUP  */
 .col-1-12, .col-2-12, .col-3-12, .col-4-12, .col-5-12, .col-6-12, .col-7-12, .col-8-12, .col-9-12, .col-10-12, .col-11-12, .col-12-12 {
   display: block;
   float: left;
   margin: 1% 0 1% 1.6%; }
-
-.group *:first-child {
-  margin-left: 0; }
 
 /*  GRID OF TWELVE  */
 .col-12-12 {

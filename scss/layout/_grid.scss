@@ -3,9 +3,12 @@
 
 /*  GROUPING  */
 .group {
+    @include clearfix;
     padding: 0px;
     margin: 0px;
-    @include clearfix;
+    *:first-child {
+        margin-left: 0;
+    }
 }
 
 /*  COLUMN SETUP  */
@@ -14,8 +17,6 @@
     float:left;
     margin: 1% 0 1% $main-margin;
 }
-
-.group *:first-child { margin-left: 0; }
 
 /*  GRID OF TWELVE  */
 .col-12-12 {

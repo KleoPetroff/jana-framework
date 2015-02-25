@@ -356,18 +356,17 @@ html {
 .clearfix:after {
   clear: both; }
 
-@miport 'vars';
-/*  GROUPING  */
-.group {
+/*  GROUPING WRAPPER  */
+.col {
   *zoom: 1;
   padding: 0px;
   margin: 0px; }
-.group:after, .group:before {
+.col:after, .col:before {
   content: "";
   display: table; }
-.group:after {
+.col:after {
   clear: both; }
-.group *:first-child {
+.col *:first-child {
   margin-left: 0; }
 
 /*  COLUMN SETUP  */
@@ -413,7 +412,7 @@ html {
 .col-1-12 {
   width: 6.866%; }
 
-/*  GO FULL WIDTH BELOW 480 PIXELS */
+/*  GO FULL WIDTH BELOW THE BREAKPOINT PIXES */
 @media only screen and (max-width: 480px) {
   .col-1-12, .col-2-12, .col-3-12, .col-4-12, .col-5-12, .col-6-12, .col-7-12, .col-8-12, .col-9-12, .col-10-12, .col-11-12, .col-12-12 {
     width: 100%;

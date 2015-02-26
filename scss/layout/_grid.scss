@@ -1,21 +1,25 @@
 @import '../utils/clearfix';
 
 /*  GROUPING WRAPPER  */
-.col {
+.row {
     @include clearfix;
     padding: 0px;
     margin: 0px;
-    *:first-child {
+    &:first-child {
         margin-left: 0;
     }
 }
 
 /*  COLUMN SETUP  */
-.col-1-12, .col-2-12, .col-3-12, .col-4-12, .col-5-12, .col-6-12, .col-7-12, .col-8-12, .col-9-12, .col-10-12, .col-11-12, .col-12-12 {
+.col {
     display: block;
     float:left;
     margin: 1% 0 1% $main-margin;
+    &:first-of-type{
+        margin-left: 0;
+    }
 }
+
 
 /*  GRID OF TWELVE  */
 .col-12-12 {

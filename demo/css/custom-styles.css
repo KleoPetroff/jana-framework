@@ -5,3 +5,5 @@
 .offset{background: #fff}
 .nested{background: #b1b1b1}
 .nested > .nested{background: #898989}
+.m-buttons{background: none}
+h1 {border-bottom: 1px solid #ccc}

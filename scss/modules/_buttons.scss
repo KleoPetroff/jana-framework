@@ -1,0 +1,90 @@
+.button {
+    padding: .5em 1em;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #434343;
+    background: #E6E6E6;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: $main-margin;
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: normal;
+    white-space: nowrap;
+    border: none;
+
+    &:hover{
+        background: #c6c6c6;
+    }
+    &::active{
+        background: #fff;
+        box-shadow: none;
+    }
+}
+
+.button.disabled{
+    background: #ebe9e9;
+    color: #969696;
+    cursor: not-allowed;
+}
+
+.button.primary{
+    background: $main-color;
+    color: $main-text-color;
+    &:hover{
+        background: $main-color-hover;
+    }
+}
+
+.button.info{
+    background: #BDE5F8;
+    color: #00529B;
+    &:hover{
+         background: #32A5D8;
+    }
+}
+
+.button.success{
+    background: #DFF2BF;
+    color: #4F8A10;
+    &:hover{
+        background: #9FD04D;
+    }
+}
+
+.button.warning{
+    background: #FEEFB3;
+    color: #9F6000;
+    &:hover{
+        background: #F9D854;
+    }
+}
+
+.button.error{
+    background: #FFBABA;
+    color: #D8000C;
+    &:hover {
+        background: #EA6969;
+    }
+}
+
+.button.x-small{
+    font-size: 70%;
+}
+
+.button.small{
+    font-size: 85%;
+}
+
+.button.regular{
+    font-size: 100%;
+}
+
+.button.large{
+    font-size: 110%;
+}
+
+.button.x-large{
+    font-size: 125%;
+}

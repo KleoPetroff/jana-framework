@@ -346,7 +346,10 @@ td, th {
   clear: both; }
 
 html {
-  font-family: Oswald; }
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal; }
 
 .clearfix {
   *zoom: 1; }
@@ -357,23 +360,25 @@ html {
   clear: both; }
 
 /*  GROUPING WRAPPER  */
-.col {
+.row {
   *zoom: 1;
   padding: 0px;
   margin: 0px; }
-.col:after, .col:before {
+.row:after, .row:before {
   content: "";
   display: table; }
-.col:after {
+.row:after {
   clear: both; }
-.col *:first-child {
+.row:first-child {
   margin-left: 0; }
 
 /*  COLUMN SETUP  */
-.col-1-12, .col-2-12, .col-3-12, .col-4-12, .col-5-12, .col-6-12, .col-7-12, .col-8-12, .col-9-12, .col-10-12, .col-11-12, .col-12-12 {
+.col {
   display: block;
   float: left;
   margin: 1% 0 1% 1.6%; }
+.col:first-of-type {
+  margin-left: 0; }
 
 /*  GRID OF TWELVE  */
 .col-12-12 {
@@ -433,5 +438,79 @@ html {
 
 .align-center {
   text-align: center; }
+
+.pull-top {
+  margin-top: 1%; }
+
+.button {
+  padding: .5em 1em;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #434343;
+  background: #E6E6E6;
+  border-radius: 3px;
+  display: inline-block;
+  margin-left: 1.6%;
+  cursor: pointer;
+  vertical-align: middle;
+  line-height: normal;
+  white-space: nowrap;
+  border: none; }
+.button:hover {
+  background: #c6c6c6; }
+.button::active {
+  background: #fff;
+  box-shadow: none; }
+
+.button.disabled {
+  background: #ebe9e9;
+  color: #969696;
+  cursor: not-allowed; }
+
+.button.primary {
+  background: #00b2ff;
+  color: #fff; }
+.button.primary:hover {
+  background: #53C9FC; }
+
+.button.info {
+  background: #BDE5F8;
+  color: #00529B; }
+.button.info:hover {
+  background: #32A5D8; }
+
+.button.success {
+  background: #DFF2BF;
+  color: #4F8A10; }
+.button.success:hover {
+  background: #9FD04D; }
+
+.button.warning {
+  background: #FEEFB3;
+  color: #9F6000; }
+.button.warning:hover {
+  background: #F9D854; }
+
+.button.error {
+  background: #FFBABA;
+  color: #D8000C; }
+.button.error:hover {
+  background: #EA6969; }
+
+.button.x-small {
+  font-size: 70%; }
+
+.button.small {
+  font-size: 85%; }
+
+.button.regular {
+  font-size: 100%; }
+
+.button.large {
+  font-size: 110%; }
+
+.button.x-large {
+  font-size: 125%; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -546,4 +546,13 @@ legend {
 .form input.col-1-12, .form input.col-2-12, .form input.col-3-12, .form input.col-4-12, .form input.col-5-12, .form input.col-6-12, .form input.col-7-12, .form input.col-8-12, .form input.col-9-12, .form input.col-10-12, .form input.col-11-12, .form .input.col-12-12 {
   margin: 0; }
 
+@media only screen and (max-width: 480px) {
+  .form input {
+    width: 100%; }
+  .form input[type="checkbox"] {
+    display: inline-block;
+    width: auto; }
+  .form button {
+    display: block; } }
+
 /*# sourceMappingURL=styles.css.map */

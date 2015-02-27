@@ -54,3 +54,21 @@ legend {
 .form .input.col-12-12 {
     margin: 0;
 }
+
+@media only screen and (max-width: $breakpoint) {
+    .form {
+        & input{
+            width: 100%;
+        }
+
+        & input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+        & button {
+            display: block;
+        }
+    }
+
+
+}

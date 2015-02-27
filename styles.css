@@ -444,14 +444,12 @@ html {
 
 .button {
   padding: .5em 1em;
-  margin-top: 10px;
   text-align: center;
   text-decoration: none;
   color: #434343;
   background: #E6E6E6;
   border-radius: 3px;
   display: inline-block;
-  margin-left: 1.6%;
   cursor: pointer;
   vertical-align: middle;
   line-height: normal;
@@ -512,5 +510,40 @@ html {
 
 .button.x-large {
   font-size: 125%; }
+
+.form {
+  padding: 1% 0; }
+.form input, .form select, .form textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.5em 0.6em;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px;
+  vertical-align: middle;
+  background: none; }
+.form label {
+  margin: .3% 0; }
+.form.stacked input[type="checkbox"] {
+  display: inline-block; }
+.form.stacked input, .form.stacked select, .form.stacked textarea, .form.stacked .button {
+  display: block; }
+
+fieldset {
+  border: none; }
+
+legend {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.form input.col-1-12, .form input.col-2-12, .form input.col-3-12, .form input.col-4-12, .form input.col-5-12, .form input.col-6-12, .form input.col-7-12, .form input.col-8-12, .form input.col-9-12, .form input.col-10-12, .form input.col-11-12, .form .input.col-12-12 {
+  margin: 0; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,56 @@
+.form {
+    padding: 1% 0;
+    & input,
+    & select,
+    & textarea {
+        @include border-box;
+        padding: 0.5em 0.6em;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-shadow: inset 0 1px 3px #ddd;
+        border-radius: 4px;
+        vertical-align: middle;
+        background: none;
+    }
+
+    & label {
+        margin: .3% 0;
+    }
+
+    &.stacked input[type="checkbox"] {
+        display: inline-block;
+    }
+
+    &.stacked input,
+    &.stacked select,
+    &.stacked textarea,
+    &.stacked .button {
+        display: block;
+    }
+}
+
+// Removed default border from normalizer
+fieldset{border: none}
+
+legend {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #ccc;
+    @include border-box;
+}
+
+.form input.col-1-12,
+.form input.col-2-12,
+.form input.col-3-12,
+.form input.col-4-12,
+.form input.col-5-12,
+.form input.col-6-12,
+.form input.col-7-12,
+.form input.col-8-12,
+.form input.col-9-12,
+.form input.col-10-12,
+.form input.col-11-12,
+.form .input.col-12-12 {
+    margin: 0;
+}

@@ -4,7 +4,7 @@
     & select,
     & textarea {
         @include border-box;
-        padding: 0.5em 0.6em;
+        padding: .5em .6em;
         display: inline-block;
         border: 1px solid #ccc;
         box-shadow: inset 0 1px 3px #ddd;
@@ -27,6 +27,26 @@
     &.stacked .button {
         display: block;
     }
+
+    & .aligned {
+        margin-bottom: .5em;
+        display: block;
+
+        & label {
+            display: inline-block;
+            width: 10em;
+            text-align: right;
+        }
+
+        & .checkbox {
+            width: auto;
+            margin-left: 10em;
+        }
+        & + .button {
+            margin-left: 10em;
+        }
+    }
+
 }
 
 // Removed default border from normalizer
@@ -35,7 +55,7 @@ fieldset{border: none}
 legend {
     display: block;
     width: 100%;
-    margin-bottom: 0.5em;
+    margin-bottom: .5em;
     border-bottom: 1px solid #ccc;
     @include border-box;
 }
@@ -53,22 +73,4 @@ legend {
 .form input.col-11-12,
 .form .input.col-12-12 {
     margin: 0;
-}
-
-@media only screen and (max-width: $breakpoint) {
-    .form {
-        & input{
-            width: 100%;
-        }
-
-        & input[type="checkbox"] {
-            display: inline-block;
-            width: auto;
-        }
-        & button {
-            display: block;
-        }
-    }
-
-
 }

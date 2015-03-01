@@ -70,6 +70,13 @@
         }
     }
 
+    & input[disabled]{
+        background: #dbdbdb;
+    }
+
+    & input[readonly]{
+        background: #f1f1f1;
+    }
 }
 
 // Removed default border from normalizer

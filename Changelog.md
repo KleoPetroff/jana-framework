@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+##[0.0.4] - 1/3/2015
+## Changes
+- Moved media queries in separate file
+- Updated the demo with form examples
+
+## Added
+- Added form input, textfield, legend, select, checkbox styles
+
+
 ## [0.0.3] - 26/2/2015
 ### Changes
 - Updated demo index page with the new buttons and grid classes

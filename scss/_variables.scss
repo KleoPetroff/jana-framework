@@ -1,7 +1,16 @@
 // Main font
-$main-font: Oswald;
-// Default font size
+$main-font: Roboto;
+// Font size
 $font-size: 16px;
+
+$line-height: 1.45;
+
+// Font Weight
+$font-light: 300;
+$font-semibold: 600;
+$font-bold: 700;
+$font-extrabold: 800;
+$font-ultrabold: 900;
 
 // Default margin size between the grid containers
 $main-margin: 1.6%;
@@ -13,3 +22,6 @@ $breakpoint: 480px;
 $main-color: #00b2ff;
 $main-color-hover: #53C9FC;
 $main-text-color: #fff;
+$dark-color: #eee;
+
+

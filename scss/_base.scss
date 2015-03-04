@@ -3,11 +3,12 @@
 @import 'utils/web-fonts';
 
 //Call Google Web Font function
-@include web-fonts(("Oswald": ("400", "700", "300")));
+@include web-fonts(("#{$main-font}": ("300", "400", "800")));
 
 html{
     font-family: $main-font;
     font-size: $font-size;
+    line-height: $line-height;
     font-weight: normal;
     font-style: normal;
 }

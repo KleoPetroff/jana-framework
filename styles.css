@@ -15,7 +15,7 @@
  * 3. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
  *  `em` units.
  */
-@import url("//fonts.googleapis.com/css?family=Oswald%3A400%2C700%2C300");
+@import url("//fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C800");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -346,8 +346,9 @@ td, th {
   clear: both; }
 
 html {
-  font-family: Oswald;
+  font-family: Roboto;
   font-size: 16px;
+  line-height: 1.45;
   font-weight: normal;
   font-style: normal; }
 
@@ -604,5 +605,66 @@ legend {
 
   textarea {
     width: 100%; } }
+h1, h2, h3, h4, h5, h6 {
+  font-family: Roboto;
+  border-bottom: 1px solid #eee;
+  margin: .5em 0; }
+
+small {
+  font-size: 65%;
+  margin-left: .5em;
+  color: #777; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 12px; }
+
+h3 small, h4 small, h5 small {
+  font-size: 75%; }
+
+.lead {
+  font-weight: 300;
+  font-size: 21px; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+.text-justify {
+  text-align: justify; }
+
+.text-nowrap {
+  white-space: nowrap; }
+
+.text-lowercase {
+  text-transform: lowercase; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+.text-capitalize {
+  text-transform: capitalize; }
+
+.list-unstyled {
+  list-style: none; }
 
 /*# sourceMappingURL=styles.css.map */

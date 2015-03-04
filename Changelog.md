@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file.
 ### Changes
 - Main demo font to Open Sans
 - Renamed `_vars.scss` to `_variables.scss` for better clarity
-- Interpolated web-fonts function font name - it will get main font name from `$main-font` variable in `_vars.scss`.
+- Interpolated web-fonts function font name - it will get main font name from `$main-font` variable in `_variables.scss`.
 
 ### Added
 - Added typography classes

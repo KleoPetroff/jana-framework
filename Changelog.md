@@ -2,8 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
-##[0.0.4] - Unreleased - 1/3/2015
-## Changes
+## Unreleased - 4/3/2015
+### Changes
+- Main demo font to Open Sans
+- Renamed `_vars.scss` to `_variables.scss` for better clarity
+- Interpolated web-fonts function font name - it will get main font name from `$main-font` variable in `_vars.scss`.
+
+### Added
+- Added typography classes
+- New variables for font weight, line height, colors
+
+### Fixed
+- Bug with the grid in the demo, where the content was above 100%
+
+## Unreleased - 1/3/2015
+### Changes
 - Moved media queries in separate file
 - Updated the demo with form examples
 
@@ -11,7 +24,7 @@ All notable changes to this project will be documented in this file.
 - Added form input, textfield, legend, select, checkbox styles
 
 
-## [0.0.3] - Unreleased - 26/2/2015
+## Unreleased - 26/2/2015
 ### Changes
 - Updated demo index page with the new buttons and grid classes
 
@@ -21,7 +34,7 @@ All notable changes to this project will be documented in this file.
 - Added `.col` grid class helper
 
 
-## [0.0.2] - Unreleased - 25/2/2015
+## Unreleased - 25/2/2015
 ### Changes
 - Changed the main grid wrapper from `.group` to `.col`
 - Changed the name of `additional.css` to `custom-styles.css`

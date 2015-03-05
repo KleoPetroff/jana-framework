@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## Unreleased - 5/3/2015
+### Added
+- Added 4 kind of table styles - Default, Bordered, Horizontal Bordered and Striped Tables
+
 ## Unreleased - 4/3/2015
 ### Changes
 - Main demo font to Open Sans

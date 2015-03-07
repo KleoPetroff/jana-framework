@@ -2,11 +2,9 @@
     background: #ccc;
 }
 
-.offset{ background: #fff }
-.nested{ background: #b1b1b1 }
-.nested > .nested{ background: #898989 }
-.m-buttons{ background: none }
-h1 { border-bottom: 1px solid #ccc }
-.no-background    { background: none }
+.offset { background: #fff }
+.nested { background: #b1b1b1 }
+.nested > .nested { background: #898989 }
+.no-background { background: none }
 .light-background { background: #f1f1f1 }
 .example {padding: 0 1em 0;box-sizing: border-box}

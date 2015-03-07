@@ -507,6 +507,9 @@ html {
 .button.x-large {
   font-size: 125%; }
 
+.button.rounded, button.rounded {
+  border-radius: 30px; }
+
 .form {
   padding: 1% 0; }
 .form input, .form select, .form textarea {

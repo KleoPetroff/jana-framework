@@ -86,3 +86,10 @@
 .button.x-large{
     font-size: 125%;
 }
+
+.button,
+button {
+    &.rounded {
+        border-radius: 30px;
+    }
+}

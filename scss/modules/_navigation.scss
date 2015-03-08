@@ -1,0 +1,28 @@
+.menu {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style: none;
+        padding: .5em 3em .5em .5em ;
+        text-align: left;
+        border-radius: 3px;
+        margin: .2em 0;
+
+        a {
+            text-decoration: none;
+            color: #4F4F4F;
+        }
+
+        &:hover {
+            background: #e0dfdf;
+        }
+    }
+    &.horizontal {
+        li {
+            display: inline-block;
+            margin: 0 .2em;
+        }
+    }
+}

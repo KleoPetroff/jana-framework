@@ -603,22 +603,50 @@ table.striped tbody tr:nth-child(odd), table.striped .odd-table, .table.striped 
 
 .menu {
   display: inline-block;
+  position: relative;
   margin: 0;
   padding: 0; }
 .menu li {
   list-style: none;
-  padding: 0.5em 3em 0.5em 0.5em;
   text-align: left;
-  border-radius: 3px;
-  margin: .2em 0; }
+  height: 100%; }
 .menu li a {
+  display: block;
+  padding: .5em 1.2em;
   text-decoration: none;
-  color: #4F4F4F; }
-.menu li:hover {
+  color: #4f4f4f;
+  border-radius: 3px; }
+.menu li a:hover {
   background: #e0dfdf; }
+.menu li.disabled {
+  color: #b6b6b6; }
+.menu li.disabled:hover {
+  background: none; }
+.menu li.dropdown-parrent {
+  position: relative; }
+.menu li.dropdown-parrent > a {
+  margin-right: 0;
+  padding-right: 0; }
+.menu li.dropdown-parrent > a:after {
+  content: "\25BE";
+  padding-left: .8em;
+  margin-right: .4em; }
 .menu.horizontal li {
-  display: inline-block;
-  margin: 0 .2em; }
+  display: inline-block; }
+
+.menu .dropdown-parrent:hover > .dropdown, .menu .dropdown-parrent:active > .dropdown, .menu .dropdown-parrent:focus > .dropdown {
+  display: block;
+  position: absolute;
+  padding-left: 0;
+  margin-left: 0;
+  left: 0; }
+
+.menu .dropdown {
+  display: none; }
+.menu .dropdown:hover {
+  display: block; }
+.menu .dropdown li {
+  display: block; }
 
 @media only screen and (max-width: 480px) {
   /*  GO FULL WIDTH BELOW THE BREAKPOINT PIXES */

@@ -2,11 +2,44 @@
 
 All notable changes to this project will be documented in this file.
 
-## Unreleased - 5/3/2015
+##9/3/2015
+### Added
+- Navigation Dropdowns
+- Navigation Disabled Buttons
+
+### Fixed
+- Fixed bug with clickable difference in navigation
+
+
+## 8/3/2015
+### Changes
+- Moved `styles.css` to demo folder
+
+### Added
+- Horizontal and vertical menu styles and classes
+
+### Fixed
+- Removed unused js script tags on demo page
+
+
+## 7/3/2015
+### Changes
+- Some custom typography classes with classes from the framework
+- Removed unnecessary classes in demo page
+
+### Added
+- Rounded button class
+
+### Fixed
+- Removed unused link tag in demo page
+- Wrong path for `styles.css` in demo page
+
+
+## 5/3/2015
 ### Added
 - Added 4 kind of table styles - Default, Bordered, Horizontal Bordered and Striped Tables
 
-## Unreleased - 4/3/2015
+## 4/3/2015
 ### Changes
 - Main demo font to Open Sans
 - Renamed `_vars.scss` to `_variables.scss` for better clarity
@@ -19,7 +52,7 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - Bug with the grid in the demo, where the content was above 100%
 
-## Unreleased - 1/3/2015
+## 1/3/2015
 ### Changes
 - Moved media queries in separate file
 - Updated the demo with form examples
@@ -28,7 +61,7 @@ All notable changes to this project will be documented in this file.
 - Added form input, textfield, legend, select, checkbox styles
 
 
-## Unreleased - 26/2/2015
+## 26/2/2015
 ### Changes
 - Updated demo index page with the new buttons and grid classes
 
@@ -38,7 +71,7 @@ All notable changes to this project will be documented in this file.
 - Added `.col` grid class helper
 
 
-## Unreleased - 25/2/2015
+## 25/2/2015
 ### Changes
 - Changed the main grid wrapper from `.group` to `.col`
 - Changed the name of `additional.css` to `custom-styles.css`

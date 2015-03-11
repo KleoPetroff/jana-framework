@@ -2,7 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
-##9/3/2015
+## 11/3/2015 - Sanity Update
+### Changes
+- Project files restructured for better maintenance
+- Created two main projects folders - `scss/modules` and `scss/components`
+- Moved compiled css to separate css folder
+- Added minified version of `styles.css`, named `styles-dist.css`
+
+
+## 9/3/2015
 ### Added
 - Navigation Dropdowns
 - Navigation Disabled Buttons

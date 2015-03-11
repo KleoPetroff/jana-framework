@@ -1,11 +1,14 @@
-@import 'utils/normalize';
-@import 'utils/clearfix';
-@import 'utils/web-fonts';
+@import 'variables';
+@import 'mixins';
+@import 'normalize';
+@import 'clearfix';
+@import 'web-fonts';
+
 
 //Call Google Web Font function
 @include web-fonts(("#{$main-font}": ("300", "400", "800")));
 
-html{
+body {
     font-family: $main-font;
     font-size: $font-size;
     line-height: $line-height;

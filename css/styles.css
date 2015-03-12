@@ -21,7 +21,7 @@ html {
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
-  -webkit-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%;
   /* 2 */
 }
 
@@ -66,7 +66,7 @@ progress,
 video {
   display: inline-block;
   /* 1 */
-  vertical-align: baseline
+  vertical-align: baseline;
   /* 2 */
 }
 
@@ -201,6 +201,7 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
@@ -246,7 +247,7 @@ textarea {
   /* 1 */
   font: inherit;
   /* 2 */
-  margin: 0
+  margin: 0;
   /* 3 */
 }
 
@@ -283,7 +284,7 @@ input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
-  cursor: pointer
+  cursor: pointer;
   /* 3 */
 }
 
@@ -321,7 +322,7 @@ input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
-  padding: 0
+  padding: 0;
   /* 2 */
 }
 
@@ -343,6 +344,8 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box;
 }
@@ -375,7 +378,7 @@ fieldset {
 legend {
   border: 0;
   /* 1 */
-  padding: 0
+  padding: 0;
   /* 2 */
 }
 
@@ -656,6 +659,8 @@ button.rounded {
   padding: 1% 0;
 }
 .form input, .form select, .form textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: .5em .6em;
   display: inline-block;
@@ -725,6 +730,8 @@ legend {
   width: 100%;
   margin-bottom: .5em;
   border-bottom: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -903,6 +910,15 @@ table.striped .odd-table, .table.striped tbody tr:nth-child(odd),
 .menu.horizontal li {
   display: inline-block;
 }
+.menu.vertical .dropdown-parrent:hover > .dropdown,
+.menu.vertical .dropdown-parrent:active > .dropdown,
+.menu.vertical .dropdown-parrent:focus > .dropdown {
+  left: 100%;
+  top: 0;
+}
+.menu.vertical .dropdown-parrent > a:after {
+  content: "\25b8";
+}
 
 .menu .dropdown-parrent:hover > .dropdown,
 .menu .dropdown-parrent:active > .dropdown,
@@ -923,4 +939,18 @@ table.striped .odd-table, .table.striped tbody tr:nth-child(odd),
 }
 .menu .dropdown li {
   display: block;
+  position: relative;
 }
+.menu .dropdown li.dropdown-parrent > a:after {
+  content: "\25b8";
+}
+.menu .dropdown li:hover > .dropdown {
+  display: block;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

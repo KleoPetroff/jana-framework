@@ -903,6 +903,15 @@ table.striped .odd-table, .table.striped tbody tr:nth-child(odd),
 .menu.horizontal li {
   display: inline-block;
 }
+.menu.vertical .dropdown-parrent:hover > .dropdown,
+.menu.vertical .dropdown-parrent:active > .dropdown,
+.menu.vertical .dropdown-parrent:focus > .dropdown {
+  left: 100%;
+  top: 0;
+}
+.menu.vertical .dropdown-parrent > a:after {
+  content: "\25b8";
+}
 
 .menu .dropdown-parrent:hover > .dropdown,
 .menu .dropdown-parrent:active > .dropdown,
@@ -923,4 +932,16 @@ table.striped .odd-table, .table.striped tbody tr:nth-child(odd),
 }
 .menu .dropdown li {
   display: block;
+  position: relative;
+}
+.menu .dropdown li.dropdown-parrent > a:after {
+  content: "\25b8";
+}
+.menu .dropdown li:hover > .dropdown {
+  display: block;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
 }

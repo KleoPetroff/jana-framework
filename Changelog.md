@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 13/3/2015
+### Added
+- Dropdowns for vertical and horizontal menus
+
+### Fixed
+- Fixed padding, border and box shadow bug in IE8 nad IE9 for checkboxes
+
 ## 11/3/2015 - Sanity Update
 ### Changes
 - Project files restructured for better maintenance

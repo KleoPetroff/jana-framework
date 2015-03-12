@@ -13,6 +13,12 @@
         background: none;
     }
 
+    & input[type="checkbox"] {
+        border: none;
+        box-shadow: none;
+        padding: 0;
+    }
+
     & label {
         margin: .3% 0;
     }

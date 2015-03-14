@@ -7,7 +7,7 @@
     <title>Jana Framework</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/custom-styles.css">
 </head>
 
@@ -158,58 +158,64 @@
             <div class="row">
                 <div class="col col-12-12 no-background">
                     <form class="form">
-                        <legend>Compact inline form</legend>
-                        <input class="" type="email" placeholder="Email">
-                        <input class="" type="password" placeholder="Password">
-                        <label class="checkbox" for="remember">
-                            <input id="remember" type="checkbox"> Remember me
-                        </label>
+                       <fieldset>
+                            <legend>Compact inline form</legend>
+                            <input class="" type="email" placeholder="Email">
+                            <input class="" type="password" placeholder="Password">
+                            <label class="checkbox" for="remember">
+                                <input id="remember" type="checkbox"> Remember me
+                            </label>
 
-                        <button type="submit" class="button primary">Sign in</button>
+                            <button type="submit" class="button primary">Sign in</button>
+                        </fieldset>
                     </form>
                 </div>
             </div>
             <div class="row">
                 <div class="col col-12-12 no-background">
                     <form class="form stacked">
-                        <legend>Stacked Form</legend>
-                        <label for="email">Email</label>
-                        <input id="email" type="email" placeholder="Email">
-                        <label for="password">Password</label>
-                        <input id="password" type="password" placeholder="Password">
-                        <label for="country">Country</label>
-                        <select class="select" name="" id="country">
-                            <option>Canada</option>
-                            <option>Bulgaria</option>
-                            <option>Germany</option>
-                        </select>
-                        <label class="checkbox" for="remember2">
-                            <input id="remember2" type="checkbox"> Remember me
-                        </label>
-                        <button type="submit" class="button primary">Sign in</button>
+                       <fieldset>
+                            <legend>Stacked Form</legend>
+                            <label for="email">Email</label>
+                            <input id="email" type="email" placeholder="Email">
+                            <label for="password">Password</label>
+                            <input id="password" type="password" placeholder="Password">
+                            <label for="country">Country</label>
+                            <select class="select" name="" id="country">
+                                <option>Canada</option>
+                                <option>Bulgaria</option>
+                                <option>Germany</option>
+                            </select>
+                            <label class="checkbox" for="remember2">
+                                <input id="remember2" type="checkbox"> Remember me
+                            </label>
+                            <button type="submit" class="button primary">Sign in</button>
+                        </fieldset>
                     </form>
                 </div>
             </div>
             <div class="row">
                 <div class="col col-12-12 no-background">
                     <form class="form">
-                        <div class="aligned">
-                            <legend>Aligned Form</legend>
-                            <label for="username">Username</label>
-                            <input id="username" type="text" placeholder="Username">
-                        </div>
-                        <div class="aligned">
+                       <fieldset class="aligned">
+
+                                <legend>Aligned Form</legend>
+                                <label for="username">Username</label>
+                                <input id="username" type="text" placeholder="Username">
+
+                        </fieldset>
+                        <fieldset class="aligned">
                             <label for="password">Password</label>
                             <input type="password" id="password" placeholder="Password">
-                        </div>
-                        <div class="aligned">
+                        </fieldset>
+                        <fieldset class="aligned">
                             <label for="email">Email Adress</label>
                             <input type="email" id="email" placeholder="Email Address">
-                        </div>
-                        <div class="aligned">
+                        </fieldset>
+                        <fieldset class="aligned">
                             <label class="checkbox" for="remember3">
                                 <input id="remember3" type="checkbox"> I've read the terms and conditions</label>
-                        </div>
+                        </fieldset>
                         <button type="submit" class="button primary">Sign in</button>
                     </form>
                 </div>
@@ -217,23 +223,27 @@
             <div class="row">
                 <div class="col col-12-12 no-background">
                     <form class="form grouped">
-                        <legend>Grouped Forms</legend>
-                        <input type="text" placeholder="Username">
-                        <input type="password" placeholder="Password">
-                        <input type="email" placeholder="Email">
+                        <fieldset>
+                            <legend>Grouped Forms</legend>
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="Password">
+                            <input type="email" placeholder="Email">
 
-                        <input type="text" placeholder="Title">
-                        <textarea placeholder="Textarea too"></textarea>
-                        <button class="button primary">Sign In</button>
+                            <input type="text" placeholder="Title">
+                            <textarea placeholder="Textarea too"></textarea>
+                            <button class="button primary">Sign In</button>
+                        </fieldset>
                     </form>
                 </div>
             </div>
             <div class="row">
                 <div class="col col-12-12 no-background">
                     <form class="form">
-                        <legend>Disabled and Read-Only Inputs</legend>
-                        <input type="text" placeholder="Disabled Input" disabled>
-                        <input type="text" placeholder="Read-Only Input" readonly>
+                        <fieldset>
+                            <legend>Disabled and Read-Only Inputs</legend>
+                            <input type="text" placeholder="Disabled Input" disabled>
+                            <input type="text" placeholder="Read-Only Input" readonly>
+                        </fieldset>
                     </form>
                 </div>
             </div>

@@ -23,9 +23,9 @@
 .col {
     display: block;
     float:left;
-    margin: 1% 0 1% $main-margin;
-    &:first-of-type{
-        margin-left: 0;
+    margin: 1% 0 1% 0;
+    + .col {
+        margin-left: $main-margin;
     }
 }
 

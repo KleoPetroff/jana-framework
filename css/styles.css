@@ -459,10 +459,10 @@ body {
 .col {
   display: block;
   float: left;
-  margin: 1% 0 1% 1.6%;
+  margin: 1% 0 1% 0;
 }
-.col:first-of-type {
-  margin-left: 0;
+.col + .col {
+  margin-left: 1.6%;
 }
 
 /*  GRID OF TWELVE  */

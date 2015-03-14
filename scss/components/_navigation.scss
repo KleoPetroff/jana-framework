@@ -43,9 +43,11 @@
     &.vertical {
        .dropdown-parrent:hover  > .dropdown,
        .dropdown-parrent:active > .dropdown,
-       .dropdown-parrent:focus  > .dropdown{
-            left: 100%;
+       .dropdown-parrent:focus  > .dropdown,
+       .dropdown-parrent a:hover +     .dropdown{
+            left: 99%;
             top: 0;
+
         }
         .dropdown-parrent > a:after {
             content: "\25b8";
@@ -55,7 +57,8 @@
 
 .menu .dropdown-parrent:hover  > .dropdown,
 .menu .dropdown-parrent:active > .dropdown,
-.menu .dropdown-parrent:focus  > .dropdown{
+.menu .dropdown-parrent:focus  > .dropdown,
+.menu .dropdown-parrent > a:hover + .dropdown{
     display: block;
     position: absolute;
     padding-left: 0;

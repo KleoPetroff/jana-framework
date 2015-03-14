@@ -2,12 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+
+## 14/3/2015
+### Fixed
+- IE8 bug with first elements in columns grid. Removed the pseudo-classes.
+- IE8 bug with dropdown being hardly accessible.
+- Add `fieldset` tag in all forms, because of the text inside `legend` was outsite the tag.
+
+
 ## 13/3/2015
 ### Added
 - Dropdowns for vertical and horizontal menus
 
 ### Fixed
 - Fixed padding, border and box shadow bug in IE8 nad IE9 for checkboxes
+
 
 ## 11/3/2015 - Sanity Update
 ### Changes

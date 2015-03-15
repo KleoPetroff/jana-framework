@@ -952,3 +952,24 @@ table.striped .odd-table, .table.striped tbody tr:nth-child(odd),
   margin: 0;
   padding: 0;
 }
+
+.img-rounded {
+  border-radius: 30px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-thumbnail {
+  border-radius: 4px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background: #fff;
+  box-sizing: border-box;
+}

@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 15/3/2015
+### Added
+- Image shapes are here - added circle, rounded and thumbnail image classes.
+- Added responsive images class.
+
 
 ## 14/3/2015
 ### Fixed

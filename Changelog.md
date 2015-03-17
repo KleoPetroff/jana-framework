@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+
+## v.1.0.0 - 17/3/2015
+### Added
+- Released first version of Jana Framework! Currently in beta.
+
+
+## 16/3/2015
+### Added
+- Add code styles for kbd, samp and code tags
+
+
 ## 15/3/2015
 ### Added
 - Image shapes are here - added circle, rounded and thumbnail image classes.

@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## 18/3/2015
+### Added
+- Offset classes added. Released with v.1.0.0
 
 ## v.1.0.0 - 17/3/2015
 ### Added

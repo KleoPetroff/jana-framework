@@ -3,4 +3,4 @@ Jana Framework
 
 Simple SaSS framework.
 
-Demo: **Soon!**
+Demo: [Rough unpolished demo!](http://kleopetrov.com/jana)

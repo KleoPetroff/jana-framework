@@ -28,9 +28,8 @@ table, .table {
     &.horizontal {
         thead {
             border-bottom: 1px solid #a8a8a8;
-            th {
-                border-right: none;
-            }
+
+            th { border-right: none }
         }
 
         td {

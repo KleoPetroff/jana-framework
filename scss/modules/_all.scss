@@ -3,7 +3,7 @@
 @import 'normalize';
 @import 'clearfix';
 @import 'web-fonts';
-
+@import 'colors';
 
 //Call Google Web Font function
 @include web-fonts(("#{$main-font}": ("300", "400", "800")));

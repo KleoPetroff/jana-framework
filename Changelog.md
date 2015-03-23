@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+
+## v.1.0.2 23/3/2015
+### Added
+- Added variables for table border, background and color
+- Added variables for warning, error, success and info buttton
+
+## Unreleased - 21/3/2015
+### Added
+- Three variable color palettes added - Monochromatic, Influenza and Charcoal Barbecue
+
 ## 18/3/2015
 ### Added
 - Offset classes added. Released with v.1.0.0

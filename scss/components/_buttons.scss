@@ -28,42 +28,42 @@
 }
 
 .button.primary{
-    background: $main-color;
-    color: $main-text-color;
+    background: $button-color;
+    color: $button-text-color;
     &:hover{
-        background: $main-color-hover;
+        background: $button-color-hover;
     }
 }
 
 .button.info{
-    background: #BDE5F8;
-    color: #00529B;
+    background: $button-info;
+    color: $button-info-text;
     &:hover{
-         background: #32A5D8;
+         background: $button-info-hover;
     }
 }
 
 .button.success{
-    background: #DFF2BF;
-    color: #4F8A10;
+    background: $button-success;
+    color: $button-success-text;
     &:hover{
-        background: #9FD04D;
+        background: $button-success-hover;
     }
 }
 
 .button.warning{
-    background: #FEEFB3;
-    color: #9F6000;
+    background: $button-warning;
+    color: $button-warning-text;
     &:hover{
-        background: #F9D854;
+        background: $button-warning-hover;
     }
 }
 
 .button.error{
-    background: #FFBABA;
-    color: #D8000C;
+    background: $button-error;
+    color: $button-error-text;
     &:hover {
-        background: #EA6969;
+        background: $button-error-hover;
     }
 }
 

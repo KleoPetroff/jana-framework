@@ -18,13 +18,29 @@ $main-margin: 1.6%;
 // Default breakpoint for the media query
 $breakpoint: 480px;
 
-// Default primary button color
-$main-color: #00b2ff;
-$main-color-hover: #53C9FC;
-$main-text-color: #fff;
-$dark-color: #eee;
-
-
 // Images
 $rounded-borders: 30px;
 
+// Button colors
+
+// Default primary button color
+$button-color: #00b2ff;
+$button-color-hover: #53C9FC;
+$button-text-color: #fff;
+$dark-color: #eee;
+
+$button-info: #BDE5F8;
+$button-info-text: #00529B;
+$button-info-hover: #32A5D8;
+
+$button-success: #DFF2BF;
+$button-success-text: #4F8A10;
+$button-success-hover: #9FD04D;
+
+$button-warning: #FEEFB3;
+$button-warning-text: #9F6000;
+$button-warning-hover: #F9D854;
+
+$button-error: #FFBABA;
+$button-error-text: #D8000C;
+$button-error-hover: #EA6969;

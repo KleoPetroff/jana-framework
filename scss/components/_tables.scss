@@ -1,39 +1,37 @@
 table, .table {
     border-spacing: 0;
     empty-cells: show;
-    border: 1px solid #a8a8a8;
+    border: 1px solid $table-border;
 
     thead {
-        background: #e0dfdf;
-        color: #000;
+        background: $table-head-color;
+        color: $table-head-text;
     }
 
-    tbody {
-        color: #747474;
-    }
+    tbody { color: $table-body-text }
 
     td, th {
         padding: .5em 1em;
-        border-right: 1px solid #a8a8a8;
+        border-right: 1px solid $table-border;
     }
 
     &.bordered {
         td {
-            border-left: 1px solid #a8a8a8;
-            border-right: 1px solid #a8a8a8;
-            border-bottom: 1px solid #a8a8a8;
+            border-left: 1px solid $table-border;
+            border-right: 1px solid $table-border;
+            border-bottom: 1px solid $table-border;
         }
     }
 
     &.horizontal {
         thead {
-            border-bottom: 1px solid #a8a8a8;
+            border-bottom: 1px solid $table-border;
 
             th { border-right: none }
         }
 
         td {
-            border-bottom: 1px solid #a8a8a8;
+            border-bottom: 1px solid $table-border;
             border-right: none;
         }
     }
@@ -41,11 +39,8 @@ table, .table {
     &.striped {
         tbody tr:nth-child(odd),
         .odd-table{
-            background: #f2f2f2;
+            background: $table-striped-color;
         }
     }
-
-    // Support for old browsers
-
 }
 

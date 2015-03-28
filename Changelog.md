@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 
 
+# Unreleased 28/3/2015
+### Changes
+- Removed unnecessary last number in grid and offset classes
+- Minified demo CSS files
+
+### Fixed
+- Offset margin not applying fixed
+- Fixed wrong percentage calculations
+
 ## v.1.0.2 23/3/2015
 ### Added
 - Added variables for table border, background and color

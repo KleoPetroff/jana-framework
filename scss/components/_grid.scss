@@ -31,7 +31,7 @@
 .col-12 { width: 100%   }
 .col-11 { width: 91.53% }
 .col-10 { width: 83.06% }
-.col-9 { width: 74.6%  }
+.col-9  { width: 74.6%  }
 .col-8  { width: 66.13% }
 .col-7  { width: 57.66% }
 .col-6  { width: 49.2%  }
@@ -43,18 +43,18 @@
 
 // OFFSETS
 
-.offset-12 { margin-left: 100%   }
-.offset-11 { margin-left: 91.53% }
-.offset-10 { margin-left: 83.06% }
-.offset-9  { margin-left: 74.6%  }
-.offset-8  { margin-left: 66.13% }
-.offset-7  { margin-left: 57.66% }
-.offset-6  { margin-left: 49.2%  }
-.offset-5  { margin-left: 40.73% }
-.offset-4  { margin-left: 32.26% }
-.offset-3  { margin-left: 23.8%  }
-.offset-2  { margin-left: 15.33% }
-.offset-1  { margin-left: 6.866% }
+.offset-12 { margin-left: 100% }
+.offset-11 { margin-left: 91.53% + $main-margin !important }
+.offset-10 { margin-left: 83.06% + $main-margin !important }
+.offset-9  { margin-left: 74.6%  + $main-margin !important }
+.offset-8  { margin-left: 66.13% + $main-margin !important }
+.offset-7  { margin-left: 57.66% + $main-margin !important }
+.offset-6  { margin-left: 49.2%  + $main-margin !important }
+.offset-5  { margin-left: 40.73% + $main-margin !important }
+.offset-4  { margin-left: 32.26% + $main-margin !important }
+.offset-3  { margin-left: 23.8%  + $main-margin !important }
+.offset-2  { margin-left: 15.33% + $main-margin !important }
+.offset-1  { margin-left: 6.866% + $main-margin !important }
 
 
 

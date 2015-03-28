@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 
 
-# Unreleased 28/3/2015
+# v.1.0.6 28/3/2015
 ### Changes
 - Removed unnecessary last number in grid and offset classes
 - Minified demo CSS files

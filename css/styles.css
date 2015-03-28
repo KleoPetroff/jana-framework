@@ -466,105 +466,105 @@ body {
 }
 
 /*  GRID OF TWELVE  */
-.col-12-12 {
+.col-12 {
   width: 100%;
 }
 
-.col-11-12 {
+.col-11 {
   width: 91.53%;
 }
 
-.col-10-12 {
+.col-10 {
   width: 83.06%;
 }
 
-.col-9-12 {
+.col-9 {
   width: 74.6%;
 }
 
-.col-8-12 {
+.col-8 {
   width: 66.13%;
 }
 
-.col-7-12 {
+.col-7 {
   width: 57.66%;
 }
 
-.col-6-12 {
+.col-6 {
   width: 49.2%;
 }
 
-.col-5-12 {
+.col-5 {
   width: 40.73%;
 }
 
-.col-4-12 {
+.col-4 {
   width: 32.26%;
 }
 
-.col-3-12 {
+.col-3 {
   width: 23.8%;
 }
 
-.col-2-12 {
+.col-2 {
   width: 15.33%;
 }
 
-.col-1-12 {
+.col-1 {
   width: 6.866%;
 }
 
-.offset-12-12 {
+.offset-12 {
   margin-left: 100%;
 }
 
-.offset-11-12 {
+.offset-11 {
   margin-left: 91.53%;
 }
 
-.offset-10-12 {
+.offset-10 {
   margin-left: 83.06%;
 }
 
-.offset-9-12 {
+.offset-9 {
   margin-left: 74.6%;
 }
 
-.offset-8-12 {
+.offset-8 {
   margin-left: 66.13%;
 }
 
-.offset-7-12 {
+.offset-7 {
   margin-left: 57.66%;
 }
 
-.offset-6-12 {
+.offset-6 {
   margin-left: 49.2%;
 }
 
-.offset-5-12 {
+.offset-5 {
   margin-left: 40.73%;
 }
 
-.offset-4-12 {
+.offset-4 {
   margin-left: 32.26%;
 }
 
-.offset-3-12 {
+.offset-3 {
   margin-left: 23.8%;
 }
 
-.offset-2-12 {
+.offset-2 {
   margin-left: 15.33%;
 }
 
-.offset-1-12 {
+.offset-1 {
   margin-left: 6.866%;
 }
 
 @media only screen and (max-width: 480px) {
   /*  GO FULL WIDTH BELOW THE BREAKPOINT PIXES */
-  .col-1-12, .col-2-12, .col-3-12, .col-4-12, .col-5-12, .col-6-12, .col-7-12, .col-8-12, .col-9-12, .col-10-12, .col-11-12, .col-12-12 {
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-12, .col-12 {
     width: 100%;
     margin: 1% 0 1% 0%;
   }
@@ -781,18 +781,18 @@ legend {
   box-sizing: border-box;
 }
 
-.form input.col-1-12,
-.form input.col-2-12,
-.form input.col-3-12,
-.form input.col-4-12,
-.form input.col-5-12,
-.form input.col-6-12,
-.form input.col-7-12,
-.form input.col-8-12,
-.form input.col-9-12,
-.form input.col-10-12,
-.form input.col-11-12,
-.form .input.col-12-12 {
+.form input.col-1,
+.form input.col-2,
+.form input.col-3,
+.form input.col-4,
+.form input.col-5,
+.form input.col-6,
+.form input.col-7,
+.form input.col-8,
+.form input.col-9,
+.form input.col-10,
+.form input.col-11,
+.form input.col-12 {
   margin: 0;
 }
 

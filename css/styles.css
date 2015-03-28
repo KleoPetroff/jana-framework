@@ -21,7 +21,7 @@ html {
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
   /* 2 */
 }
 
@@ -66,7 +66,7 @@ progress,
 video {
   display: inline-block;
   /* 1 */
-  vertical-align: baseline;
+  vertical-align: baseline
   /* 2 */
 }
 
@@ -201,7 +201,6 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
@@ -247,7 +246,7 @@ textarea {
   /* 1 */
   font: inherit;
   /* 2 */
-  margin: 0;
+  margin: 0
   /* 3 */
 }
 
@@ -284,7 +283,7 @@ input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
-  cursor: pointer;
+  cursor: pointer
   /* 3 */
 }
 
@@ -322,7 +321,7 @@ input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
-  padding: 0;
+  padding: 0
   /* 2 */
 }
 
@@ -344,8 +343,6 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box;
 }
@@ -378,7 +375,7 @@ fieldset {
 legend {
   border: 0;
   /* 1 */
-  padding: 0;
+  padding: 0
   /* 2 */
 }
 
@@ -567,9 +564,13 @@ body {
 
 @media only screen and (max-width: 480px) {
   /*  GO FULL WIDTH BELOW THE BREAKPOINT PIXES */
-  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-12, .col-12 {
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
     width: 100%;
     margin: 1% 0 1% 0%;
+  }
+
+  .col + .col {
+    margin-left: 0;
   }
 
   .form input {
@@ -707,8 +708,6 @@ button.rounded {
   padding: 1% 0;
 }
 .form input, .form select, .form textarea {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: .5em .6em;
   display: inline-block;
@@ -783,8 +782,6 @@ legend {
   width: 100%;
   margin-bottom: .5em;
   border-bottom: 1px solid #ccc;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -1043,9 +1040,5 @@ table.striped .odd-table, .table.striped tbody tr:nth-child(odd),
   padding: 5px;
   border: 1px solid #ccc;
   background: #fff;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-/*# sourceMappingURL=styles.css.map */

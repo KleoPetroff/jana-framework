@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - Offset margin not applying fixed
 - Fixed wrong percentage calculations
+- Remove left margin in `.col` on mobile view
 
 ## v.1.0.2 23/3/2015
 ### Added
